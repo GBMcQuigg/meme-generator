@@ -1,0 +1,52 @@
+.meme-body {
+  justify-content: center;
+}
+
+.meme-container {
+  position: relative;
+}
+
+#meme-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.meme {
+  position: relative;
+  padding: 0 10px 0 0;
+}
+
+.image {
+  height: 250px;
+}
+
+p {
+  width: 100%;
+  position: absolute;
+  color: white;
+  font-weight: bolder;
+  font-size: 50px;
+  -webkit-text-stroke-width: 1.1px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+.p-top {
+  bottom: 140px;
+}
+
+.p-bottom {
+  top: 130px;
+}
+
+.inp {
+  width: 20vw;
+  padding: 10px 5px;
+  margin: 5px 0;
+  border-radius: 25px;
+}
+
+button {
+  width: 21vw;
+  border-radius: 25px;
+}
